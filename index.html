@@ -1,12 +1,23 @@
 <html>
-<head/>
+<head>
+  <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+</head>
 <body>
   <script type="text/x-handlebars">
-    Do you see me?
+    <div class="well">
+      HEADER
+    </div>
     {{outlet}}
   </script>
   <script type="text/x-handlebars" data-template-name="index">
-    Hello World!
+    <div class="row-fluid">
+      <div class="span3 well">
+        left nav
+      </div>
+      <div class="span9 well">
+        main
+      </div>
+    </div>
   </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="http://builds.emberjs.com/handlebars-1.0.0-rc.4.js"></script>
