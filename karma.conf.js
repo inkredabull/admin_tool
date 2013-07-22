@@ -8,9 +8,17 @@ basePath = '';
 
 // list of files / patterns to load in the browser
 files = [
-  JASMINE,
-  JASMINE_ADAPTER,
+  MOCHA,
+  MOCHA_ADAPTER,
+  'bower_components/jquery/jquery.min.js',
+  'bower_components/handlebars/handlebars.runtime.js',
+  'bower_components/ember/ember.js',
+  'bower_components/chai/chai.js',
+  'bower_components/ember-mocha-adapter/adapter.js',
+  'app.js',
+  'test/support/*.js',
   'test/unit/*.spec.js',
+  'test/integration/*.spec.js'
 ];
 
 
