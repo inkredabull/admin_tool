@@ -15,10 +15,11 @@ files = [
   'bower_components/ember/ember.js',
   'bower_components/chai/chai.js',
   'bower_components/ember-mocha-adapter/adapter.js',
-  'app.js',
+  'templates.js',
+  'scripts.js',
   'test/support/*.js',
-  'test/unit/*.spec.js',
-  'test/integration/*.spec.js'
+  //'test/unit/*.spec.js',
+  //'test/acceptance/*.spec.js'
 ];
 
 
