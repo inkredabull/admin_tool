@@ -1,0 +1,5 @@
+AdminTool.Router.map(function () {
+  
+});
+
+
