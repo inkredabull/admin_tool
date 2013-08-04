@@ -1,1 +1,5 @@
-App = Ember.Application.create();
+AdminTool = Ember.Application.create();
+AdminTool.Store = DS.Store.extend({
+  revision: 13,
+  adapter: DS.FixtureAdapter.create()
+});
