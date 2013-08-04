@@ -1,4 +1,4 @@
-AdminTool.User = Ember.Object.extend({
+AdminTool.User = DS.Model.extend({
   name: DS.attr('string'),
   email: DS.attr('string')
 });
