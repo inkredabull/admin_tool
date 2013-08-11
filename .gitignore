@@ -1,4 +1,6 @@
-libpeerconnection.log
-bower_components/*
-app/.DS_Store
-app/scripts/.DS_Store
+node_modules
+temp
+dist
+.sass-cache
+.tmp
+app/bower_components
