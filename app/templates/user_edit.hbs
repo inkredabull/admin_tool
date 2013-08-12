@@ -7,10 +7,10 @@
       <strong>{{this.key}}:</strong>
     </td>
     <td>
-      {{this.value}}
+      {{view AdminTool.BoundTextFieldView contentBinding="this"}}
     </td>
   </tr>
   {{/each}}
 </table>
 
-{{#linkTo 'user.edit' model}}Change{{/linkTo}}
+<button {{action 'save'}}>Update</button>

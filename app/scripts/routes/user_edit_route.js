@@ -1,4 +1,4 @@
-AdminTool.UserRoute = Ember.Route.extend({
+AdminTool.UserEditRoute = Ember.Route.extend({
   model: function(model) {
     return AdminTool.User.find(model.user_id);
   }
